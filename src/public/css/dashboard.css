@@ -1,0 +1,104 @@
+.dashboard__heading {
+    color: #6f5543;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.search-form__content {
+    display: flex;
+    justify-content: center;
+}
+
+.form__input--keyword input {
+    background-color: #f5f5f5;
+    padding: 10px;
+    width: 300px;
+    border: 1px solid #b5ada5;
+    appearance: none;
+}
+
+.form__input--gender select {
+    background-color: #f5f5f5;
+    padding: 10px;
+    width: 80px;
+    border: 1px solid #b5ada5;
+}
+
+.form__input--categories select {
+    background-color: #f5f5f5;
+    padding: 10px;
+    width: 200px;
+    border: 1px solid #b5ada5;
+}
+
+.form__input--date input {
+    background-color: #f5f5f5;
+    padding: 10px;
+    width: 120px;
+    border: 1px solid #b5ada5;
+}
+
+.search-form__button-submit {
+    padding: 10px 10px;
+    height: 10px 10px;
+    border: none;
+    background: #a18d7a;
+    color: #fff;
+    cursor: pointer;
+}
+
+.search-form__button-reset{
+    padding: 10px 10px;
+    height: 10px 10px;
+    border: none;
+    background: #E6D2C9;
+    color: #fff;
+    cursor: pointer;
+}
+
+.export-form{
+    display: flex;
+    flex-direction:row
+}
+
+.export__button{
+    padding: 10px 10px;
+    height: 10px 10px;
+    border: none;
+    background: #E6D2C9;
+    color: #fff;
+    cursor: pointer;
+}
+
+/* 検索結果 */
+
+.contacts-table{
+    margin: 0 auto;
+    width: 70%;
+    text-align: center;
+}
+
+.contacts-table__inner {
+    width: 100%;
+}
+
+.contacts-table__row {
+    border-bottom: 1px solid #ddd;
+}
+
+.contacts-table__header {
+    background: #806c58;
+    padding: 12px;
+    width: auto;
+    text-align: center;
+    font-weight: bold;
+}
+
+th {
+    color: #fff;
+}
+
+td {
+    padding: 17px;
+    color: #918980;
+}
